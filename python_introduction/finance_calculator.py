@@ -26,3 +26,4 @@ projected_savings = (monthly_savings * 12) + (monthly_savings * 12 * annual_inte
 #Display the projected annual savings after including interest.
 print(f"Your monthly savings are: ${monthly_savings:.2f}")
 print(f"Your projected annual savings after interest is: ${projected_savings:.2f}") 
+#End of the script
