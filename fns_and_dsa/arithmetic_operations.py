@@ -1,6 +1,10 @@
+#Define a function named perform_operation.
+
 def perform_operation(num1, num2, operation):
+    # Convert the operation to lowercase to handle case insensitivity
     operation = operation.lower()
     
+    # Check the operation and perform the corresponding arithmetic operation
     if operation == "add":
         return num1 + num2
     elif operation == "subtract":
